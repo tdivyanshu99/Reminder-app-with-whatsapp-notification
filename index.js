@@ -53,7 +53,7 @@ setInterval(() => {
                   .create({
                     body: reminder.reminderMsg,
                     from: "whatsapp:+14155238886",
-                    to: "whatsapp:+919654123740",
+                    to: "whatsapp:+918888888888",
                   })
                   .then((message) => console.log(message.sid))
                   .done();
